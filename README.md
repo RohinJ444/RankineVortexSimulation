@@ -6,13 +6,14 @@ I developed this simulation as my final project for EPS 109 (Computer Simulation
 ## Project Contents
 1. **Simulation Code**: A Jupyter notebook (`Elementary_Dynamical_Simulations_of_Hurricane_Winds_using_Rankine_Vortices.ipynb`) implementing the Rankine vortex model to simulate hurricane wind fields.
 2. **Presentation**: A PDF presentation (`Elementary Dynamical Simulation of Hurricane Winds using Rankine Vortex.pptx.pdf`) explaining the simulation code, including verification and documentation.
+3. **Animation**: A short video (`RankineVortexAnimation.mp4`) showcasing the animation of the simulation.
 
 ## Rankine Vortex Model
 - **Definition**: The Rankine vortex model provides a velocity vector at a given radius \( r \) from the center of the vortex. It is characterized by a central core where the fluid velocity is constant and equal to the vortex's maximum velocity. Outside the core, the velocity decreases radially until it becomes zero.
 - **Parameters**:
-  - **\( a \)**: Radius of the vortex-core.
-  - **\( \Gamma \)**: Circulation strength.
-  - **\( r \)**: Distance from the center.
+  - **a**: Radius of the vortex-core.
+  - **Γ**: Circulation strength.
+  - **r**: Distance from the center.
 
 ## Why Rankine Vortex for Hurricane Winds?
 The Rankine vortex is an excellent representation of hurricane winds due to the consistent and relatively uniform nature of hurricane circulations. This model's simplicity allows for effective simulations of such complex systems.
